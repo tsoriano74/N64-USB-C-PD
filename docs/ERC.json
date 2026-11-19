@@ -1,0 +1,457 @@
+{
+  "$schema": "https://schemas.kicad.org/erc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-11-19T14:45:03",
+  "ignored_checks": [
+    {
+      "description": "Global label only appears once in the schematic",
+      "key": "single_global_label"
+    },
+    {
+      "description": "Four connection points are joined together",
+      "key": "four_way_junction"
+    },
+    {
+      "description": "SPICE model issue",
+      "key": "simulation_model_issue"
+    },
+    {
+      "description": "Assigned footprint doesn't match footprint filters",
+      "key": "footprint_filter"
+    }
+  ],
+  "included_severities": [
+    "error",
+    "warning"
+  ],
+  "kicad_version": "10.0.1",
+  "sheets": [
+    {
+      "path": "/",
+      "uuid_path": "/3954cbd2-4e62-41ac-bfbc-7e0e2cc5cd86",
+      "violations": [
+        {
+          "description": "Symbol 'GND' doesn't match copy in library 'power'",
+          "items": [
+            {
+              "description": "Symbol #PWR09 [GND]",
+              "pos": {
+                "x": 0.2921,
+                "y": 0.6731
+              },
+              "uuid": "343271cb-750c-4ad0-a940-a06ab92f2bbc"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'GND' doesn't match copy in library 'power'",
+          "items": [
+            {
+              "description": "Symbol #PWR08 [GND]",
+              "pos": {
+                "x": 0.3683,
+                "y": 0.6731
+              },
+              "uuid": "33e924b3-2740-4b89-8e25-fb37fa86beef"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'CH224K' doesn't match copy in library 'Interface_USB'",
+          "items": [
+            {
+              "description": "Symbol U3 [CH224K]",
+              "pos": {
+                "x": 0.9017,
+                "y": 0.4572
+              },
+              "uuid": "b9d74361-965a-4f34-8d90-7f38a03d853d"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'GND' doesn't match copy in library 'power'",
+          "items": [
+            {
+              "description": "Symbol #PWR07 [GND]",
+              "pos": {
+                "x": 0.9017,
+                "y": 0.6477
+              },
+              "uuid": "cdb145df-328f-409b-a0e2-d9fc20a8b835"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C11 [C]",
+              "pos": {
+                "x": 1.1049,
+                "y": 0.3556
+              },
+              "uuid": "2494ea79-fb2e-4cda-91be-2a5723de8e15"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C1 [C]",
+              "pos": {
+                "x": 0.6096,
+                "y": 1.0287
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4df6e"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'GND' doesn't match copy in library 'power'",
+          "items": [
+            {
+              "description": "Symbol #PWR010 [GND]",
+              "pos": {
+                "x": 1.1049,
+                "y": 0.6477
+              },
+              "uuid": "4d3c5d89-10d7-4fae-8399-755a16c7c672"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "The current configuration does not include the symbol library 'PSU'",
+          "items": [
+            {
+              "description": "Symbol U1 [AP62301Z6-7]",
+              "pos": {
+                "x": 0.8509,
+                "y": 0.9652
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4df66"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_issues"
+        },
+        {
+          "description": "The current configuration does not include the footprint library 'Matterhorn 64'",
+          "items": [
+            {
+              "description": "Symbol TP1 [TestPoint]",
+              "pos": {
+                "x": 0.3048,
+                "y": 1.27
+              },
+              "uuid": "832a8e81-d66b-4042-ba92-b8a32ae5d794"
+            }
+          ],
+          "severity": "warning",
+          "type": "footprint_link_issues"
+        },
+        {
+          "description": "Symbol 'GND' doesn't match copy in library 'power'",
+          "items": [
+            {
+              "description": "Symbol #PWR04 [GND]",
+              "pos": {
+                "x": 0.6096,
+                "y": 1.2065
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4dfa9"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C3 [C]",
+              "pos": {
+                "x": 0.9906,
+                "y": 0.9271
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4df77"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "The current configuration does not include the footprint library 'Matterhorn 64'",
+          "items": [
+            {
+              "description": "Symbol TP2 [TestPoint]",
+              "pos": {
+                "x": 0.3048,
+                "y": 1.3716
+              },
+              "uuid": "2482af75-6c74-45c7-b219-94c787dacc96"
+            }
+          ],
+          "severity": "warning",
+          "type": "footprint_link_issues"
+        },
+        {
+          "description": "Symbol 'L' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol L1 [L]",
+              "pos": {
+                "x": 1.1176,
+                "y": 0.9652
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4df7d"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C5 [C]",
+              "pos": {
+                "x": 1.3208,
+                "y": 1.0541
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4df8f"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C2 [C]",
+              "pos": {
+                "x": 0.6096,
+                "y": 1.6383
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8b7"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C7 [C]",
+              "pos": {
+                "x": 1.4351,
+                "y": 1.0541
+              },
+              "uuid": "00000000-0000-0000-0000-000063e4dfaf"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "The current configuration does not include the symbol library 'PSU'",
+          "items": [
+            {
+              "description": "Symbol U2 [AP62301Z6-7]",
+              "pos": {
+                "x": 0.8509,
+                "y": 1.5748
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8af"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_issues"
+        },
+        {
+          "description": "Symbol 'TestPoint' doesn't match copy in library 'Connector'",
+          "items": [
+            {
+              "description": "Symbol TP3 [TestPoint]",
+              "pos": {
+                "x": 1.5494,
+                "y": 0.9144
+              },
+              "uuid": "00000000-0000-0000-0000-000063e976a9"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C4 [C]",
+              "pos": {
+                "x": 0.9906,
+                "y": 1.5367
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8c0"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C9 [C]",
+              "pos": {
+                "x": 1.5494,
+                "y": 1.0541
+              },
+              "uuid": "6f5824bd-2fa1-4d02-83c3-de812aeb1763"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'GND' doesn't match copy in library 'power'",
+          "items": [
+            {
+              "description": "Symbol #PWR06 [GND]",
+              "pos": {
+                "x": 0.6096,
+                "y": 1.8161
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8f2"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'L' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol L2 [L]",
+              "pos": {
+                "x": 1.1176,
+                "y": 1.5748
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8c6"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'TestPoint' doesn't match copy in library 'Connector'",
+          "items": [
+            {
+              "description": "Symbol TP4 [TestPoint]",
+              "pos": {
+                "x": 1.5494,
+                "y": 1.1938
+              },
+              "uuid": "00000000-0000-0000-0000-000063e97b2a"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C6 [C]",
+              "pos": {
+                "x": 1.3208,
+                "y": 1.6637
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8d8"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'TestPoint' doesn't match copy in library 'Connector'",
+          "items": [
+            {
+              "description": "Symbol TP5 [TestPoint]",
+              "pos": {
+                "x": 1.5494,
+                "y": 1.5113
+              },
+              "uuid": "00000000-0000-0000-0000-000063e97ff3"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C8 [C]",
+              "pos": {
+                "x": 1.4351,
+                "y": 1.6637
+              },
+              "uuid": "00000000-0000-0000-0000-000063e8a8f8"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'C' doesn't match copy in library 'Device'",
+          "items": [
+            {
+              "description": "Symbol C10 [C]",
+              "pos": {
+                "x": 1.5494,
+                "y": 1.6637
+              },
+              "uuid": "5f2aada7-b0d1-464f-9cb0-6e49b18a441a"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        },
+        {
+          "description": "Symbol 'TestPoint' doesn't match copy in library 'Connector'",
+          "items": [
+            {
+              "description": "Symbol TP6 [TestPoint]",
+              "pos": {
+                "x": 1.5494,
+                "y": 1.8161
+              },
+              "uuid": "00000000-0000-0000-0000-000063e98490"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_symbol_mismatch"
+        }
+      ]
+    }
+  ],
+  "source": "hardware/N64-PSU.kicad_sch"
+}
